@@ -1,0 +1,182 @@
+
+* {
+    font-family: Helvetica, Arial, sans-serif;
+}
+.noselect {
+    -webkit-touch-callout: none; /* iOS Safari */
+      -webkit-user-select: none; /* Safari */
+       -khtml-user-select: none; /* Konqueror HTML */
+         -moz-user-select: none; /* Old versions of Firefox */
+          -ms-user-select: none; /* Internet Explorer/Edge */
+              user-select: none; /* Non-prefixed version, currently
+                                    supported by Chrome, Opera and Firefox */
+}
+
+
+#game-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    overflow: auto;
+    position: relative;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 100%;
+    background-image: url(sprites/bkgd.svg);
+}
+
+html, body, #game-container {
+    width: 100%;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+}
+
+.evidence-image {
+    max-width: 10rem;
+}
+
+.body,
+.wrapper {
+    /* Break the flow */
+    position: absolute;
+    top: 0px;
+
+    /* Give them all the available space */
+    width: 100%;
+    height: 100%;
+
+    /* Remove the margins if any */
+    margin: 0;
+
+    /* Allow them to scroll down the document */
+    overflow: hidden;
+}
+
+.body {
+    /* Sending body at the bottom of the stack */
+    z-index: 1;
+}
+
+.wrapper {
+    /* Making the wrapper stack above the body */
+    z-index: 2;
+}
+
+.space-station {
+    width: 100%;
+    height: 100%;
+    background-color: #00082088;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    overflow: hidden;
+    transition: opacity 0.5s linear;
+}
+
+.space-station-options {
+    display: flex;
+    margin-top: auto;
+    margin-bottom: 1rem;
+    justify-content: flex-start;
+    overflow: auto;
+    max-width: 100%;
+    align-self: center;
+}
+
+.instructions {
+    font-size: 2rem;
+    text-align: left;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.space-station-options {
+    transition: transform 1s linear, opacity 0.5s linear;
+    transition-delay: 0s;
+}
+
+.instructions-container {
+    display: inline-flex;
+    transition: transform 1s linear, opacity 0.5s linear;
+    flex-direction: column;
+}
+
+.hide-transition {
+    opacity: 0;
+}
+.instructions-container.hide-transition {
+    transform: translateX(calc(-100% - 0.5rem));
+}
+.space-station-options.hide-transition {
+    transform: translateY(calc(100% + 1rem));
+}
+
+.option-description {
+    font-size: 1rem;
+}
+
+@media screen and (max-width: 450px) {
+    .instructions {
+        font-size: 7vmin;
+    }
+}
+.swal2-confirm.swal2-styled.start-button {
+    font-size: 1.5rem;
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    padding-left: 1rem;
+    padding-right: 1rem;
+    min-width: 7rem;
+    flex-grow: 1;
+}
+
+.option-image {
+    max-width: 4rem;
+}
+
+@keyframes space-station-completed {
+    0% {
+        transform: scale(0) rotate(0deg);
+    }
+    100% {
+        transform: scale(1) rotate(360deg);
+    }
+}
+@keyframes space-station-rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.space-station-completed {
+    justify-self: center;
+    align-self: center;
+    margin: auto 0;
+    max-width: 800px;
+    width: 90%;
+    flex-shrink: 1;
+    object-fit: contain;
+    min-height: 0;
+    transform-origin: center;
+    will-change: transform;
+    animation-name: space-station-completed, space-station-rotate;
+    animation-duration: 4000ms, 4000ms;
+    animation-delay: 0ms, 4000ms;
+    animation-timing-function: linear, linear;
+    animation-iteration-count: 1, infinite;
+}

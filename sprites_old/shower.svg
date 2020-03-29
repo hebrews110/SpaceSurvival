@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg6218"
+   viewBox="0 0 708.01 778.88"
+   version="1.1"
+   sodipodi:docname="shower.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <defs
+     id="defs50">
+	
+	
+</defs>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="1017"
+     id="namedview48"
+     showgrid="false"
+     inkscape:zoom="0.6"
+     inkscape:cx="354.005"
+     inkscape:cy="389.44"
+     inkscape:window-x="-8"
+     inkscape:window-y="-8"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg6218" />
+  <path
+     style="stroke:#000000;stroke-width:39.29999924;stroke-linecap:round;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     d="M 217.364,72.3 173.459,232.44 375.869,115.58 Z"
+     id="path4648" />
+  <path
+     style="fill:none;stroke:#000000;stroke-width:66.87000275;stroke-linecap:round;stroke-linejoin:round"
+     inkscape:connector-curvature="0"
+     d="M 33.45,745.23 V 130.94 C 33.45,7.9 230.41,-2.39 230.41,121.2536"
+     id="path5338" />
+  <metadata
+     id="metadata45">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/licenses/publicdomain/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title>Shower1</dc:title>
+        <dc:date>2013-08-18T18:58:44</dc:date>
+        <dc:description>shower pictogram</dc:description>
+        <dc:source>https://openclipart.org/detail/181942/shower1-by-cyberscooty-181942</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>cyberscooty</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>bath</rdf:li>
+            <rdf:li>bathroom</rdf:li>
+            <rdf:li>douche</rdf:li>
+            <rdf:li>panneau</rdf:li>
+            <rdf:li>salle de bain</rdf:li>
+            <rdf:li>sdb</rdf:li>
+            <rdf:li>shower</rdf:li>
+            <rdf:li>sign</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/licenses/publicdomain/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="g945"
+     transform="rotate(141.23435,242.6333,234.22936)">
+		<path
+   id="path937"
+   d="m 95.259,195.66 c 25.325,-17.623 55.487,-26.119 84.743,-26.119 31.179,0 60.604,9.143 84.773,26.058 l 10.615,-18.387 c -27.42,-18.726 -60.465,-28.861 -95.389,-28.861 -34.926,0 -67.974,10.135 -95.392,28.864 l 10.661,18.45 z"
+   inkscape:connector-curvature="0" />
+
+		<path
+   id="path939"
+   d="m 67.257,147.16 c 33.894,-22.816 73.917,-33.794 112.74,-33.794 38.828,0 78.849,10.978 112.74,33.794 l 10.632,-18.415 c -35.61,-23.767 -78.31,-36.57 -123.37,-36.57 -45.065,0 -87.764,12.805 -123.37,36.572 l 10.627,18.42 z"
+   inkscape:connector-curvature="0" />
+
+		<g
+   id="g943">
+			<path
+   id="path941"
+   d="M 39.291,98.719 C 81.74,70.695 131.6,57.192 180.001,57.192 c 48.396,0 98.258,13.503 140.71,41.527 l 10.61,-18.377 C 287.521,51.525 235.201,36 180.001,36 124.797,36 72.471,51.525 28.681,80.343 l 10.611,18.376 z"
+   inkscape:connector-curvature="0" />
+
+		</g>
+
+	</g>
+</svg>
