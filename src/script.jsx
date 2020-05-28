@@ -12,6 +12,7 @@ const questionNames = [
     "Eventually, we'll run out of water. How should we produce more?",
     "What should we do with the solid waste?",
     "We need to stay fit while we're in space. Which equipment is the best choice?",
+    "How will we keep ourselves clean when we're in space?",
     "The air in our storage tanks won't last forever. How will we keep the air fresh?",
     "Plants should work, but how many do we need?",
     "How will we produce food?",
@@ -64,7 +65,7 @@ const options = [
     [
         { n: "Sponge bath", i: "sprites/sponge.svg", d: "This lets you clean off without too much water everywhere.", c: true},
         { n: "Sonic shower", i: "sprites/shower.svg", d: "Is this even a thing?" },
-        { n: "Shower with mask", i: "sprites/googles.svg", d: "A mask keeps the water from going in your eyes, but the water still won't flow on you."}
+        { n: "Shower with mask", i: "sprites/goggles.svg", d: "A mask keeps the water from going in your eyes, but the water still won't flow on you."}
     ],
     [
         { n: "Scrub CO<sub>2</sub> from the air", i: "sprites/air-filter.svg", d: "This only removes CO<sub>2</sub> from the air. It doesn't create more oxygen." },
